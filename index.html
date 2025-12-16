@@ -1,1 +1,43 @@
-halo mamaskuu
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Happy Birthday Mamasku 💖</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Musik (diputar setelah klik, biar ga diblok browser) -->
+  <audio id="bgm" loop>
+    <source src="music/JAP.mp3" type="audio/mpeg" />
+  </audio>
+
+  <div class="card">
+    <h1 class="title">Happy birthday mamaskuu‼💗</h1>
+
+    <p>
+      Selamatt ulang tahun yaa gantenggku sayanggg 💕<br>
+      Semogaa panjang umurrr, sehattt, dan bahagia selaluu sayangg!!<br><br>
+      Makasihh yaahh sudahh menemanii akuu selama 5 tahun ini 💗<br>
+      Semoga kedepannya aku juga bisa selalu merayakan ulang tahunmu setiap tahunnya 🌟<br><br>
+      Sekali lagi <b>Happy Birthday Mamass ❤</b>
+    </p>
+
+    <!-- Foto biasa -->
+    <div class="photos">
+      <img src="images/foto1.jpg" alt="Foto" />
+    </div>
+
+    <!-- Tombol rahasia -->
+    <button onclick="openSecret(this)">Pencet Aku 💌</button>
+
+    <!-- Foto rahasia -->
+    <div id="secret" class="secret">
+      <img src="images/secret.jpg" alt="Secret" />
+      <p>Berkelanalah kemanapun asalkan tujuanmu tetap aku Lovvv Youuu Sayaanggg 💗</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
